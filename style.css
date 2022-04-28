@@ -39,7 +39,7 @@ h2 {
     box-shadow: 1px 2px 4px black;
 }
 
-.Big{
+.big{
     display: flex;
     gap: 100px;
 }
@@ -88,6 +88,25 @@ h2 {
     color: black;
 }
 
-@media screen and (max-width:700px) {
-
+@media screen and (max-width:680px) {
+    .container{
+        flex-direction: column;
+        width:100%;
+         padding:75px; 
+        text-align: center;
+    }
+    .displayPic{
+        width: 200px;
+        height: 200px;
+    }
+    .big {
+        flex-direction: column;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .top-container{
+        width: 100%;
+        
+    }
 }
